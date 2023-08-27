@@ -1,6 +1,6 @@
 # React Native Books App
 
-A React Native app that enables users to search for various books using the Open Library API. The app employs multiple technologies to enhance its functionality and user experience.
+A React Native app that enables users to search for various books using the [Open Library API](https://openlibrary.org/developers/api).
 
 ## Some of the Utilized Technologies
 
