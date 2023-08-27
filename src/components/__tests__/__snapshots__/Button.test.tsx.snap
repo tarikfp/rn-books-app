@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BorderlessBounceButton Component matches snapshot with custom bounceValue 1`] = `
+<RNGestureHandlerButton
+  activeOpacity={0.3}
+  animatedStyle={
+    {
+      "value": {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      },
+    }
+  }
+  borderless={true}
+  collapsable={false}
+  delayLongPress={600}
+  handlerTag={9}
+  handlerType="NativeViewGestureHandler"
+  onActivated={[Function]}
+  onActiveStateChange={[Function]}
+  onEnded={[Function]}
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  style={
+    {
+      "opacity": 1,
+      "transform": [
+        {
+          "scale": 1,
+        },
+      ],
+    }
+  }
+>
+  <RNGestureHandlerButton
+    activeOpacity={0.3}
+    animatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      }
+    }
+    borderless={true}
+    collapsable={false}
+    delayLongPress={600}
+    handlerTag={10}
+    handlerType="NativeViewGestureHandler"
+    onActivated={[Function]}
+    onActiveStateChange={[Function]}
+    onEnded={[Function]}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleRadius={0}
+    style={
+      {
+        "opacity": 1,
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#B4B6BB",
+            "borderColor": "#E7E8E9",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "paddingVertical": 12,
+          },
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 14,
+              "fontWeight": "800",
+              "letterSpacing": -0.01,
+              "lineHeight": 20,
+            },
+          ]
+        }
+      >
+        Button Label
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+</RNGestureHandlerButton>
+`;
+
+exports[`BorderlessBounceButton Component matches snapshot with default props 1`] = `
+<RNGestureHandlerButton
+  activeOpacity={0.3}
+  animatedStyle={
+    {
+      "value": {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      },
+    }
+  }
+  borderless={true}
+  collapsable={false}
+  delayLongPress={600}
+  handlerTag={7}
+  handlerType="NativeViewGestureHandler"
+  onActivated={[Function]}
+  onActiveStateChange={[Function]}
+  onEnded={[Function]}
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  style={
+    {
+      "opacity": 1,
+      "transform": [
+        {
+          "scale": 1,
+        },
+      ],
+    }
+  }
+>
+  <RNGestureHandlerButton
+    activeOpacity={0.3}
+    animatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      }
+    }
+    borderless={true}
+    collapsable={false}
+    delayLongPress={600}
+    handlerTag={8}
+    handlerType="NativeViewGestureHandler"
+    onActivated={[Function]}
+    onActiveStateChange={[Function]}
+    onEnded={[Function]}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleRadius={0}
+    style={
+      {
+        "opacity": 1,
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#B4B6BB",
+            "borderColor": "#E7E8E9",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "paddingVertical": 12,
+          },
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#FFFFFF",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 14,
+              "fontWeight": "800",
+              "letterSpacing": -0.01,
+              "lineHeight": 20,
+            },
+          ]
+        }
+      >
+        Button Label
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+</RNGestureHandlerButton>
+`;
+
+exports[`NativeBorderlessButton Component matches snapshot when disabled 1`] = `
+<RNGestureHandlerButton
+  activeOpacity={0.3}
+  animatedStyle={
+    {
+      "value": {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      },
+    }
+  }
+  borderless={true}
+  collapsable={false}
+  delayLongPress={600}
+  enabled={false}
+  handlerTag={4}
+  handlerType="NativeViewGestureHandler"
+  onActivated={[Function]}
+  onActiveStateChange={[Function]}
+  onEnded={[Function]}
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  rippleRadius={0}
+  style={
+    {
+      "opacity": 1,
+      "transform": [
+        {
+          "scale": 1,
+        },
+      ],
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#B4B6BB",
+          "borderColor": "#E7E8E9",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "paddingVertical": 12,
+        },
+      ]
+    }
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 14,
+            "fontWeight": "800",
+            "letterSpacing": -0.01,
+            "lineHeight": 20,
+          },
+        ]
+      }
+    >
+      Button Label
+    </Text>
+  </View>
+</RNGestureHandlerButton>
+`;
+
+exports[`NativeBorderlessButton Component matches snapshot with default props 1`] = `
+<RNGestureHandlerButton
+  activeOpacity={0.3}
+  animatedStyle={
+    {
+      "value": {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      },
+    }
+  }
+  borderless={true}
+  collapsable={false}
+  delayLongPress={600}
+  handlerTag={3}
+  handlerType="NativeViewGestureHandler"
+  onActivated={[Function]}
+  onActiveStateChange={[Function]}
+  onEnded={[Function]}
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  rippleRadius={0}
+  style={
+    {
+      "opacity": 1,
+      "transform": [
+        {
+          "scale": 1,
+        },
+      ],
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#B4B6BB",
+          "borderColor": "#E7E8E9",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "paddingVertical": 12,
+        },
+      ]
+    }
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 14,
+            "fontWeight": "800",
+            "letterSpacing": -0.01,
+            "lineHeight": 20,
+          },
+        ]
+      }
+    >
+      Button Label
+    </Text>
+  </View>
+</RNGestureHandlerButton>
+`;

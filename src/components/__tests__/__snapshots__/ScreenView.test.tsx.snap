@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenView renders correctly with all custom props and edge cases 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "backgroundColor": "#F3F4F6",
+      },
+      undefined,
+    ]
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#3EBCB9",
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          Test Content
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
+
+exports[`ScreenView renders correctly with all custom props enabled 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "backgroundColor": "#F3F4F6",
+      },
+      undefined,
+    ]
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#3EBCB9",
+              "flex": 1,
+              "paddingHorizontal": 24,
+              "paddingVertical": 24,
+            },
+          ]
+        }
+      >
+        <Text
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          Test Content
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
+
+exports[`ScreenView renders correctly with all props disabled 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F3F4F6",
+        "flex": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 16,
+      },
+    ]
+  }
+>
+  <Text>
+    Test Content
+  </Text>
+</View>
+`;
+
+exports[`ScreenView renders correctly with custom background color 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#3EBCB9",
+        "flex": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 16,
+      },
+    ]
+  }
+>
+  <Text>
+    Test Content
+  </Text>
+</View>
+`;
+
+exports[`ScreenView renders correctly with custom padding 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F3F4F6",
+        "flex": 1,
+        "paddingHorizontal": 24,
+        "paddingVertical": 24,
+      },
+    ]
+  }
+>
+  <Text>
+    Test Content
+  </Text>
+</View>
+`;
+
+exports[`ScreenView renders correctly with default props 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F3F4F6",
+        "flex": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 16,
+      },
+    ]
+  }
+>
+  <Text>
+    Test Content
+  </Text>
+</View>
+`;
+
+exports[`ScreenView renders correctly with disableHorizontalPadding prop 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F3F4F6",
+        "flex": 1,
+        "paddingVertical": 16,
+      },
+    ]
+  }
+>
+  <Text>
+    Test Content
+  </Text>
+</View>
+`;
+
+exports[`ScreenView renders correctly with disableVerticalPadding prop 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F3F4F6",
+        "flex": 1,
+        "paddingHorizontal": 16,
+      },
+    ]
+  }
+>
+  <Text>
+    Test Content
+  </Text>
+</View>
+`;
+
+exports[`ScreenView renders correctly with safe area enabled 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "additive",
+      "right": "additive",
+      "top": "additive",
+    }
+  }
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "backgroundColor": "#F3F4F6",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#F3F4F6",
+          "flex": 1,
+          "paddingHorizontal": 16,
+          "paddingVertical": 16,
+        },
+      ]
+    }
+  >
+    <Text>
+      Test Content
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;
+
+exports[`ScreenView renders correctly with scroll view enabled 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#F3F4F6",
+            "flex": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 16,
+          },
+        ]
+      }
+    >
+      <Text>
+        Test Content
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`ScreenView renders correctly with shouldDismissKeyboardOnPressOutside prop 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F3F4F6",
+        "flex": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 16,
+      },
+    ]
+  }
+>
+  <Text
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    Test Content
+  </Text>
+</View>
+`;
+
+exports[`ScreenView renders correctly with status bar enabled 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F3F4F6",
+        "flex": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 16,
+      },
+    ]
+  }
+>
+  <Text>
+    Test Content
+  </Text>
+</View>
+`;
+
+exports[`ScreenView renders correctly with touchable without feedback enabled 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#F3F4F6",
+        "flex": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 16,
+      },
+    ]
+  }
+>
+  <Text
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    Test Content
+  </Text>
+</View>
+`;

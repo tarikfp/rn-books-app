@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarRating Component matches snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      [
+        {
+          "color": "#FFD93D",
+          "fontSize": 20,
+        },
+        {
+          "marginHorizontal": 2,
+        },
+        {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+    testID="1"
+  >
+    
+  </Text>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      [
+        {
+          "color": "#FFD93D",
+          "fontSize": 20,
+        },
+        {
+          "marginHorizontal": 2,
+        },
+        {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+    testID="2"
+  >
+    
+  </Text>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      [
+        {
+          "color": "#FFD93D",
+          "fontSize": 20,
+        },
+        {
+          "marginHorizontal": 2,
+        },
+        {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+    testID="3"
+  >
+    
+  </Text>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      [
+        {
+          "color": "#FFD93D",
+          "fontSize": 20,
+        },
+        {
+          "marginHorizontal": 2,
+        },
+        {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+    testID="4"
+  >
+    
+  </Text>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      [
+        {
+          "color": "#B4B6BB",
+          "fontSize": 20,
+        },
+        {
+          "marginHorizontal": 2,
+        },
+        {
+          "fontFamily": "FontAwesome",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+    testID="5"
+  >
+    
+  </Text>
+</View>
+`;

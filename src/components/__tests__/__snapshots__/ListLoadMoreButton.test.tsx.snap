@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListLoadMoreButton Component matches snapshot 1`] = `
+<RNGestureHandlerButton
+  collapsable={false}
+  delayLongPress={600}
+  handlerTag={1}
+  handlerType="NativeViewGestureHandler"
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  onPress={[MockFunction]}
+>
+  <Text
+    allowFontScaling={false}
+    disabled={true}
+    selectable={false}
+    style={
+      [
+        {
+          "color": "#3EBCB9",
+          "fontSize": 35,
+        },
+        undefined,
+        {
+          "fontFamily": "anticon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+  >
+    
+  </Text>
+</RNGestureHandlerButton>
+`;

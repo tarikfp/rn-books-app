@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBookResultDetailSection renders content with array 1`] = `
+<View
+  style={
+    [
+      {
+        "borderBottomWidth": 1.5,
+        "borderColor": "#E7E8E9",
+        "justifyContent": "center",
+        "paddingVertical": 12,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#16171C",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 20,
+          "fontWeight": "500",
+          "letterSpacing": -0.01,
+          "lineHeight": 24,
+          "textAlign": "left",
+        },
+      ]
+    }
+  >
+    Title
+  </Text>
+  <View
+    style={
+      [
+        {
+          "marginTop": 8,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "#16171C",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 14,
+          "fontWeight": "400",
+          "letterSpacing": -0.01,
+          "lineHeight": 20,
+          "textAlign": "left",
+        },
+      ]
+    }
+  >
+    Item 1, Item 2, Item 3
+  </Text>
+</View>
+`;
+
+exports[`SearchBookResultDetailSection renders content with string 1`] = `
+<View
+  style={
+    [
+      {
+        "borderBottomWidth": 1.5,
+        "borderColor": "#E7E8E9",
+        "justifyContent": "center",
+        "paddingVertical": 12,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#16171C",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 20,
+          "fontWeight": "500",
+          "letterSpacing": -0.01,
+          "lineHeight": 24,
+          "textAlign": "left",
+        },
+      ]
+    }
+  >
+    Title
+  </Text>
+  <View
+    style={
+      [
+        {
+          "marginTop": 8,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "#16171C",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 14,
+          "fontWeight": "400",
+          "letterSpacing": -0.01,
+          "lineHeight": 20,
+          "textAlign": "left",
+        },
+      ]
+    }
+  >
+    Sample Content
+  </Text>
+</View>
+`;

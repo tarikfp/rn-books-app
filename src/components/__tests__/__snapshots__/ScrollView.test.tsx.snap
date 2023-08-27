@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppScrollView renders correctly with default props 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "backgroundColor": "#F3F4F6",
+    }
+  }
+  keyboardShouldPersistTaps="handled"
+  scrollEventThrottle={16}
+  style={
+    {
+      "backgroundColor": "#F3F4F6",
+    }
+  }
+>
+  <View>
+    <Text>
+      Test Content
+    </Text>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBookResultActionItem renders correctly with badge 1`] = `
+<RNGestureHandlerButton
+  activeOpacity={0.65}
+  animatedStyle={
+    {
+      "value": {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      },
+    }
+  }
+  borderless={true}
+  collapsable={false}
+  delayLongPress={600}
+  handlerTag={1}
+  handlerType="NativeViewGestureHandler"
+  onActivated={[Function]}
+  onActiveStateChange={[Function]}
+  onEnded={[Function]}
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  onPress={[Function]}
+  style={
+    {
+      "opacity": 1,
+      "transform": [
+        {
+          "scale": 1,
+        },
+      ],
+    }
+  }
+  testID="SearchBookResultActionItemButton"
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#E7E8E9",
+          "borderRadius": 999,
+          "padding": 4,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      disabled={true}
+      selectable={false}
+      style={
+        [
+          {
+            "color": "blue",
+            "fontSize": 25,
+          },
+          undefined,
+          {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      󰃀
+    </Text>
+  </View>
+</RNGestureHandlerButton>
+`;
+
+exports[`SearchBookResultActionItem renders correctly without badge 1`] = `
+<RNGestureHandlerButton
+  activeOpacity={0.65}
+  animatedStyle={
+    {
+      "value": {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      },
+    }
+  }
+  borderless={true}
+  collapsable={false}
+  delayLongPress={600}
+  handlerTag={2}
+  handlerType="NativeViewGestureHandler"
+  onActivated={[Function]}
+  onActiveStateChange={[Function]}
+  onEnded={[Function]}
+  onGestureEvent={[Function]}
+  onGestureHandlerEvent={[Function]}
+  onGestureHandlerStateChange={[Function]}
+  onHandlerStateChange={[Function]}
+  onPress={[Function]}
+  style={
+    {
+      "opacity": 1,
+      "transform": [
+        {
+          "scale": 1,
+        },
+      ],
+    }
+  }
+  testID="SearchBookResultActionItemButton"
+>
+  <Text
+    allowFontScaling={false}
+    disabled={true}
+    selectable={false}
+    style={
+      [
+        {
+          "color": "blue",
+          "fontSize": 25,
+        },
+        undefined,
+        {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+  >
+    󰃀
+  </Text>
+</RNGestureHandlerButton>
+`;
