@@ -2,6 +2,11 @@
 
 A React Native app that enables users to search for various books using the [Open Library API](https://openlibrary.org/developers/api).
 
+## Caveat (Android)
+In case android build fails, please remove [this line](https://github.com/tarikfp/rn-books-app/blob/3d8440c5e2fad03bc9f7be894ebaaaab30fb8be6/android/app/build.gradle#L119) from `android/app/build.gradle`.
+
+Related issue: https://stackoverflow.com/a/75266614/9631529
+
 ## Some of the Utilized Technologies
 
 - [Redux Toolkit](https://redux-toolkit.js.org/)
